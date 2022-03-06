@@ -4,6 +4,7 @@
   "description": "boilerplate express json-server",
   "main": "index.js",
   "scripts": {
+    "start": "start http://localhost:3000 && cross-env PORT=3000 IP=localhost node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/esimorre/jsonserver-seemore#readme",
   "dependencies": {
+    "axios": "^0.26.0",
+    "cross-env": "^7.0.3",
     "express": "^4.17.3",
     "json-server": "^0.17.0"
   }
