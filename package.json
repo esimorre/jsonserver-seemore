@@ -1,0 +1,29 @@
+{
+  "name": "jsonserver-seemore",
+  "version": "0.0.1",
+  "description": "boilerplate express json-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esimorre/jsonserver-seemore.git"
+  },
+  "keywords": [
+    "express",
+    "json-server",
+    "node",
+    "light"
+  ],
+  "author": "seemore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esimorre/jsonserver-seemore/issues"
+  },
+  "homepage": "https://github.com/esimorre/jsonserver-seemore#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "json-server": "^0.17.0"
+  }
+}
